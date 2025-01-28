@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		81AD2D262D49119300B4DEBA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 81AD2D252D49119300B4DEBA /* Lottie */; };
-		81AD2D282D49119300B4DEBA /* Lottie-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 81AD2D272D49119300B4DEBA /* Lottie-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AD2D262D49119300B4DEBA /* Lottie in Frameworks */,
-				81AD2D282D49119300B4DEBA /* Lottie-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +71,6 @@
 			name = "LottieMagic-İOS";
 			packageProductDependencies = (
 				81AD2D252D49119300B4DEBA /* Lottie */,
-				81AD2D272D49119300B4DEBA /* Lottie-Dynamic */,
 			);
 			productName = "LottieMagic-İOS";
 			productReference = 81AD2D0A2D490D2D00B4DEBA /* LottieMagic-İOS.app */;
@@ -353,11 +350,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 81AD2D242D49119300B4DEBA /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
-		};
-		81AD2D272D49119300B4DEBA /* Lottie-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 81AD2D242D49119300B4DEBA /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = "Lottie-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
