@@ -17,12 +17,18 @@ struct LottieView: UIViewRepresentable{
         let animationView = LottieAnimationView(name: name)
         animationView.loopMode = loopMode
         animationView.animationSpeed = animationSpeed
+        animationView.contentMode = .scaleAspectFit
+        animationView.backgroundBehavior = .pauseAndRestore
+        
+        animationView.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        animationView.setContentCompressionResistancePriority(.defaultLow, for: .vertical)
+        
         animationView.play()
         return animationView
     }
     
     func updateUIView(_ uiView: LottieAnimationView, context: Context) {
-        
+        uiView.play()
     }
     
     
