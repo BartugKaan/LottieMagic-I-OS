@@ -36,7 +36,7 @@ open LottieMagic.xcodeproj
 * Modify the text, fonts, or button styles in <b>OnboardingView.swift</b>
 
 ## Medium Article
-Learn how this project was build step-by-step in this article on Medium. -> https://medium.com/@cbartugkaan/how-to-integrate-lottie-animations-into-swiftui-for-stunning-onboarding-experiences-4bf7b4316aab
+Learn how this project was build step-by-step in this article on <a href="https://medium.com/@cbartugkaan/how-to-integrate-lottie-animations-into-swiftui-for-stunning-onboarding-experiences-4bf7b4316aab">Medium</a>. 
 
 ## Contributing
 Contributions are welcome! Fork the repository, make changes, and submit a pull request.
