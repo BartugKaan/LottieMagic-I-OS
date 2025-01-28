@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct LottieMagic_I_OSApp: App {
+struct LottieMagic_IOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
